@@ -1,7 +1,8 @@
 # profanity-plugins
 
 ## Profanity notifications for i3blocks
-`prof-unread.py`
+Tracks which Profanity conversations have unread messages and shares that state with an i3blocks 
+status-bar blocklet, so the bar can show an unread-message icon.
 
 ### Dependencies
 
@@ -26,7 +27,9 @@ In Profanity:
 `/plugins install emoji_ascii.py`
 
 ## Signal client
-Turns Profanity into a client for Signal, by talking to a locally-running signal-cli daemon over its JSON-RPC Unix socket. Each Signal contact/group gets its own Profanity window (Signal +1555...), and incoming photos are rendered as chafa-generated ASCII art previews.
+Turns Profanity into a client for Signal, by talking to a locally-running signal-cli 
+daemon over its JSON-RPC Unix socket. Each Signal contact/group gets its own Profanity 
+window (Signal +1555...), and incoming photos are rendered as chafa-generated ASCII art previews.
 
 ### Dependencies
 
